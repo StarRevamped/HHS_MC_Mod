@@ -3,42 +3,41 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "iasonasgem",
+    "texture": "childsoul",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Iasonas Gem",
+    "name": "Child Soul",
     "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "MATERIALS"
       }
     ],
-    "stackSize": 17,
+    "stackSize": 18,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 1.0,
+    "toolType": 0.7000000000000001,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "It cries to be released from this world."
+      ]
     },
     "glowCondition": {
       "fixedValue": true
     },
     "inventorySize": 9,
-    "inventoryStackSize": 17,
-    "onDroppedByPlayer": {
-      "name": "IasonasGemItemIsDroppedByPlayer"
-    },
+    "inventoryStackSize": 18,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

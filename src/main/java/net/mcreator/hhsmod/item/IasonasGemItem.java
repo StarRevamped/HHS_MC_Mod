@@ -13,7 +13,7 @@ import net.mcreator.hhsmod.procedures.IasonasGemItemIsDroppedByPlayerProcedure;
 
 public class IasonasGemItem extends Item {
 	public IasonasGemItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(17).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class IasonasGemItem extends Item {
 
 	@Override
 	public boolean onDroppedByPlayer(ItemStack itemstack, Player entity) {
-		IasonasGemItemIsDroppedByPlayerProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		IasonasGemItemIsDroppedByPlayerProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return true;
 	}
 }
