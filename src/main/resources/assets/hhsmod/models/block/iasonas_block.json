@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hhsmod:block/iasonasblock",
+    "up": "hhsmod:block/iasonasblock",
+    "north": "hhsmod:block/iasonasblock",
+    "east": "hhsmod:block/iasonasblock",
+    "south": "hhsmod:block/iasonasblock",
+    "west": "hhsmod:block/iasonasblock",
+    "particle": "minecraft:block/cobblestone"
+  },
+  "render_type": "solid"
+}

@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "IasonasOre",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iasonas_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/hhsmod/item/IasonasOreItem.java",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_ore.json"
-        ]
-      }
-    },
-    {
       "name": "IasonasGemItemIsDroppedByPlayer",
       "type": "procedure",
       "compiles": true,
@@ -55,14 +42,40 @@
           "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
         ]
       }
+    },
+    {
+      "name": "IasonasBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iasonas_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
+          "src/main/resources/data/hhsmod/loot_table/blocks/iasonas_block.json",
+          "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json",
+          "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
+          "src/main/resources/data/hhsmod/worldgen/configured_feature/iasonas_block.json",
+          "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
+          "src/main/resources/data/hhsmod/neoforge/biome_modifier/iasonas_block_biome_modifier.json",
+          "src/main/resources/assets/hhsmod/models/item/iasonas_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:IasonasBlock"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.hhsmod.iasonas_block": "Iasonas Block",
+      "item.hhsmod.iasonas_gem": "Iasonas Gem"
+    }
   },
   "foldersRoot": {
     "name": "~",
