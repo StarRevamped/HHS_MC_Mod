@@ -1,4 +1,8 @@
 {
   "block.hhsmod.iasonas_block": "Iasonas Block",
+  "advancements.get_iasonas_gem.title": "Iasonas Gem",
+  "advancements.die_by_gem.descr": "You DROPPED IT???? wtf man",
+  "advancements.get_iasonas_gem.descr": "He is very powerful... but don\u0027t drop him.",
+  "advancements.die_by_gem.title": "Die By Gem",
   "item.hhsmod.iasonas_gem": "Iasonas Gem"
 }

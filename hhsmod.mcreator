@@ -12,6 +12,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -38,8 +42,8 @@
       "registry_name": "iasonas_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
+          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json",
+          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java"
         ]
       }
     },
@@ -75,6 +79,30 @@
           "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json"
         ]
       }
+    },
+    {
+      "name": "GetIasonasGem",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_iasonas_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/advancement/get_iasonas_gem.json"
+        ]
+      }
+    },
+    {
+      "name": "DieByGem",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "die_by_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/advancement/die_by_gem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -88,6 +116,10 @@
   "language_map": {
     "en_us": {
       "block.hhsmod.iasonas_block": "Iasonas Block",
+      "advancements.get_iasonas_gem.title": "Iasonas Gem",
+      "advancements.die_by_gem.descr": "You DROPPED IT???? wtf man",
+      "advancements.get_iasonas_gem.descr": "He is very powerful... but don\u0027t drop him.",
+      "advancements.die_by_gem.title": "Die By Gem",
       "item.hhsmod.iasonas_gem": "Iasonas Gem"
     }
   },

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "advancements.die_by_gem.title"
+    },
+    "description": {
+      "translate": "advancements.die_by_gem.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "die_by_gem_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30000
+  },
+  "parent": "hhsmod:get_iasonas_gem"
+}

@@ -24,7 +24,7 @@ public class IasonasGemItem extends Item {
 
 	@Override
 	public boolean onDroppedByPlayer(ItemStack itemstack, Player entity) {
-		IasonasGemItemIsDroppedByPlayerProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ());
+		IasonasGemItemIsDroppedByPlayerProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 		return true;
 	}
 }
