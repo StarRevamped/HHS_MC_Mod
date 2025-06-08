@@ -48,19 +48,19 @@
       "type": "structure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wilson_classroom",
+      "registry_name": "normal_wilson_room",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/worldgen/structure_set/wilson_classroom.json",
-          "src/main/resources/data/hhsmod/worldgen/structure/wilson_classroom.json",
-          "src/main/resources/data/hhsmod/worldgen/template_pool/wilson_classroom.json"
+          "src/main/resources/data/hhsmod/worldgen/template_pool/normal_wilson_room.json",
+          "src/main/resources/data/hhsmod/worldgen/structure/normal_wilson_room.json",
+          "src/main/resources/data/hhsmod/worldgen/structure_set/normal_wilson_room.json"
         ]
       }
     },
     {
       "name": "IasonasBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "iasonas_block",
       "metadata": {
