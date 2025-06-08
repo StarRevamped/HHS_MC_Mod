@@ -25,6 +25,12 @@ public class HhsmodModTabs {
 			tabData.accept(HhsmodModItems.IASONAS_GEM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(HhsmodModBlocks.IASONAS_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(HhsmodModItems.YARD_STICK.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(HhsmodModItems.YARD_STICK.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(HhsmodModItems.AJAY_SISCONE_SPAWN_EGG.get());
 		}
 	}
 }

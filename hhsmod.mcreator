@@ -46,7 +46,7 @@
     {
       "name": "IasonasBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "iasonas_block",
       "metadata": {
@@ -61,19 +61,56 @@
           "src/main/resources/assets/hhsmod/models/item/iasonas_block.json"
         ]
       }
+    },
+    {
+      "name": "YardStick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yard_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hhsmod/models/item/yard_stick.json",
+          "src/main/java/net/mcreator/hhsmod/item/YardStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AjaySiscone",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ajay_siscone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hhsmod/models/item/ajay_siscone_spawn_egg.json",
+          "src/main/java/net/mcreator/hhsmod/client/renderer/AjaySisconeRenderer.java",
+          "src/main/resources/data/hhsmod/neoforge/biome_modifier/ajay_siscone_biome_modifier.json",
+          "src/main/java/net/mcreator/hhsmod/entity/AjaySisconeEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:AjaySiscone"
+    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:IasonasBlock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:YardStick"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.hhsmod.iasonas_block": "Iasonas Block",
+      "entity.hhsmod.ajay_siscone": "The Scone",
+      "item.hhsmod.ajay_siscone_spawn_egg": "The Scone Spawn Egg",
+      "item.hhsmod.yard_stick": "Yard Stick",
       "item.hhsmod.iasonas_gem": "Iasonas Gem"
     }
   },

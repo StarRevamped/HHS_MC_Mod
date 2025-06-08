@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hhsmod.init.HhsmodModTabs;
 import net.mcreator.hhsmod.init.HhsmodModItems;
+import net.mcreator.hhsmod.init.HhsmodModEntities;
 import net.mcreator.hhsmod.init.HhsmodModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,7 +44,7 @@ public class HhsmodMod {
 		HhsmodModBlocks.REGISTRY.register(modEventBus);
 
 		HhsmodModItems.REGISTRY.register(modEventBus);
-
+		HhsmodModEntities.REGISTRY.register(modEventBus);
 		HhsmodModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
