@@ -13,7 +13,7 @@ import net.mcreator.hhsmod.procedures.IasonasGemItemIsDroppedByPlayerProcedure;
 
 public class IasonasGemItem extends Item {
 	public IasonasGemItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(17).rarity(Rarity.COMMON));
 	}
 
 	@Override
