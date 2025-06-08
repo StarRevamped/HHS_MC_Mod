@@ -55,9 +55,9 @@
       "registry_name": "normal_wilson_room",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/worldgen/template_pool/normal_wilson_room.json",
+          "src/main/resources/data/hhsmod/worldgen/structure_set/normal_wilson_room.json",
           "src/main/resources/data/hhsmod/worldgen/structure/normal_wilson_room.json",
-          "src/main/resources/data/hhsmod/worldgen/structure_set/normal_wilson_room.json"
+          "src/main/resources/data/hhsmod/worldgen/template_pool/normal_wilson_room.json"
         ]
       }
     },
@@ -69,14 +69,14 @@
       "registry_name": "iasonas_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
           "src/main/resources/data/hhsmod/loot_table/blocks/iasonas_block.json",
+          "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json",
           "src/main/resources/data/hhsmod/worldgen/configured_feature/iasonas_block.json",
-          "src/main/resources/data/hhsmod/neoforge/biome_modifier/iasonas_block_biome_modifier.json",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_block.json",
-          "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
+          "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
           "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
-          "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json"
+          "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
+          "src/main/resources/data/hhsmod/neoforge/biome_modifier/iasonas_block_biome_modifier.json",
+          "src/main/resources/assets/hhsmod/models/item/iasonas_block.json"
         ]
       }
     },
@@ -103,6 +103,29 @@
           "src/main/resources/data/hhsmod/advancement/die_by_gem.json"
         ]
       }
+    },
+    {
+      "name": "ChildSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "child_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hhsmod/item/ChildSoulItem.java",
+          "src/main/resources/assets/hhsmod/models/item/child_soul.json"
+        ]
+      }
+    },
+    {
+      "name": "ChildSouls",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_burn",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -116,11 +139,13 @@
   "language_map": {
     "en_us": {
       "block.hhsmod.iasonas_block": "Iasonas Block",
+      "item.hhsmod.child_soul": "Child Soul",
       "advancements.get_iasonas_gem.title": "Iasonas Gem",
       "advancements.die_by_gem.descr": "You DROPPED IT???? wtf man",
       "advancements.get_iasonas_gem.descr": "He is very powerful... but don\u0027t drop him.",
       "advancements.die_by_gem.title": "Die By Gem",
-      "item.hhsmod.iasonas_gem": "Iasonas Gem"
+      "item.hhsmod.iasonas_gem": "Iasonas Gem",
+      "item.hhsmod.child_soul.description_0": "It cries to be released from this world."
     }
   },
   "foldersRoot": {

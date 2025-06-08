@@ -13,12 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.hhsmod.item.IasonasGemItem;
+import net.mcreator.hhsmod.item.ChildSoulItem;
 import net.mcreator.hhsmod.HhsmodMod;
 
 public class HhsmodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(HhsmodMod.MODID);
 	public static final DeferredItem<Item> IASONAS_GEM = REGISTRY.register("iasonas_gem", IasonasGemItem::new);
 	public static final DeferredItem<Item> IASONAS_BLOCK = block(HhsmodModBlocks.IASONAS_BLOCK);
+	public static final DeferredItem<Item> CHILD_SOUL = REGISTRY.register("child_soul", ChildSoulItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
