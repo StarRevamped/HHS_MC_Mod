@@ -12,6 +12,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -38,24 +42,24 @@
       "registry_name": "iasonas_gem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
+          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json",
+          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java"
         ]
       }
     },
     {
       "name": "IasonasBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "iasonas_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
           "src/main/resources/data/hhsmod/loot_table/blocks/iasonas_block.json",
           "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json",
-          "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
           "src/main/resources/data/hhsmod/worldgen/configured_feature/iasonas_block.json",
+          "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
+          "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
           "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
           "src/main/resources/data/hhsmod/neoforge/biome_modifier/iasonas_block_biome_modifier.json",
           "src/main/resources/assets/hhsmod/models/item/iasonas_block.json"
@@ -70,9 +74,9 @@
       "registry_name": "ajay_siscone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/models/item/ajay_siscone_spawn_egg.json",
-          "src/main/java/net/mcreator/hhsmod/client/renderer/AjaySisconeRenderer.java",
           "src/main/resources/data/hhsmod/neoforge/biome_modifier/ajay_siscone_biome_modifier.json",
+          "src/main/java/net/mcreator/hhsmod/client/renderer/AjaySisconeRenderer.java",
+          "src/main/resources/assets/hhsmod/models/item/ajay_siscone_spawn_egg.json",
           "src/main/java/net/mcreator/hhsmod/entity/AjaySisconeEntity.java"
         ]
       }
@@ -85,8 +89,8 @@
       "registry_name": "yard_stick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/models/item/yard_stick.json",
-          "src/main/java/net/mcreator/hhsmod/item/YardStickItem.java"
+          "src/main/java/net/mcreator/hhsmod/item/YardStickItem.java",
+          "src/main/resources/assets/hhsmod/models/item/yard_stick.json"
         ]
       }
     },
@@ -132,8 +136,8 @@
       "registry_name": "child_soul",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/models/item/child_soul.json",
-          "src/main/java/net/mcreator/hhsmod/item/ChildSoulItem.java"
+          "src/main/java/net/mcreator/hhsmod/item/ChildSoulItem.java",
+          "src/main/resources/assets/hhsmod/models/item/child_soul.json"
         ]
       }
     },
@@ -159,9 +163,9 @@
       "registry_name": "siscone_room",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json",
+          "src/main/resources/data/hhsmod/worldgen/template_pool/siscone_room.json",
           "src/main/resources/data/hhsmod/worldgen/structure/siscone_room.json",
-          "src/main/resources/data/hhsmod/worldgen/template_pool/siscone_room.json"
+          "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json"
         ]
       }
     }
@@ -183,7 +187,16 @@
   "language_map": {
     "en_us": {
       "block.hhsmod.iasonas_block": "Iasonas Block",
-      "item.hhsmod.iasonas_gem": "Iasonas Gem"
+      "item.hhsmod.child_soul": "Child Soul",
+      "entity.hhsmod.ajay_siscone": "The Scone",
+      "advancements.get_iasonas_gem.title": "Iasonas Gem",
+      "advancements.die_by_gem.descr": "You DROPPED IT???? wtf man",
+      "advancements.get_iasonas_gem.descr": "He is very powerful... but don\u0027t drop him.",
+      "item.hhsmod.ajay_siscone_spawn_egg": "The Scone Spawn Egg",
+      "advancements.die_by_gem.title": "Die By Gem",
+      "item.hhsmod.yard_stick": "Yard Stick",
+      "item.hhsmod.iasonas_gem": "Iasonas Gem",
+      "item.hhsmod.child_soul.description_0": "It cries to be released from this world."
     }
   },
   "foldersRoot": {

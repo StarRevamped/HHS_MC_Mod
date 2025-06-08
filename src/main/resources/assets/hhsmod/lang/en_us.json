@@ -1,4 +1,13 @@
 {
   "block.hhsmod.iasonas_block": "Iasonas Block",
-  "item.hhsmod.iasonas_gem": "Iasonas Gem"
+  "item.hhsmod.child_soul": "Child Soul",
+  "entity.hhsmod.ajay_siscone": "The Scone",
+  "advancements.get_iasonas_gem.title": "Iasonas Gem",
+  "advancements.die_by_gem.descr": "You DROPPED IT???? wtf man",
+  "advancements.get_iasonas_gem.descr": "He is very powerful... but don\u0027t drop him.",
+  "item.hhsmod.ajay_siscone_spawn_egg": "The Scone Spawn Egg",
+  "advancements.die_by_gem.title": "Die By Gem",
+  "item.hhsmod.yard_stick": "Yard Stick",
+  "item.hhsmod.iasonas_gem": "Iasonas Gem",
+  "item.hhsmod.child_soul.description_0": "It cries to be released from this world."
 }
