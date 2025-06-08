@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "hhsmod:wilson_classroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 4,
+    "salt": 1812311524
+  }
+}

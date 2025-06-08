@@ -42,6 +42,20 @@
           "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
         ]
       }
+    },
+    {
+      "name": "WilsonClassroom",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wilson_classroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/worldgen/structure_set/wilson_classroom.json",
+          "src/main/resources/data/hhsmod/worldgen/structure/wilson_classroom.json",
+          "src/main/resources/data/hhsmod/worldgen/template_pool/wilson_classroom.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
