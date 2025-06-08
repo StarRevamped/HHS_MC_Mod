@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "IasonasOre",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iasonas_ore",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/hhsmod/item/IasonasOreItem.java",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_ore.json"
-        ]
-      }
-    },
-    {
       "name": "IasonasGemItemIsDroppedByPlayer",
       "type": "procedure",
       "compiles": true,
@@ -62,7 +49,9 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.hhsmod.iasonas_gem": "Iasonas Gem"
+    }
   },
   "foldersRoot": {
     "name": "~",

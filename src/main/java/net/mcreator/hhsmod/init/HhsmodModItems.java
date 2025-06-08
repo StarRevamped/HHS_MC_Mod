@@ -9,13 +9,11 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.hhsmod.item.IasonasOreItem;
 import net.mcreator.hhsmod.item.IasonasGemItem;
 import net.mcreator.hhsmod.HhsmodMod;
 
 public class HhsmodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(HhsmodMod.MODID);
-	public static final DeferredItem<Item> IASONAS_ORE = REGISTRY.register("iasonas_ore", IasonasOreItem::new);
 	public static final DeferredItem<Item> IASONAS_GEM = REGISTRY.register("iasonas_gem", IasonasGemItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items

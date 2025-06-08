@@ -1,6 +1,11 @@
 package net.mcreator.hhsmod.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.LightningBolt;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.BlockPos;
 
 public class IasonasGemItemIsDroppedByPlayerProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
