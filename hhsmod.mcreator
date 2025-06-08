@@ -126,6 +126,20 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "SisconeRoom",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siscone_room",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/worldgen/template_pool/siscone_room.json",
+          "src/main/resources/data/hhsmod/worldgen/structure/siscone_room.json",
+          "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
