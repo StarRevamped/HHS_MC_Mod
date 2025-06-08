@@ -180,6 +180,18 @@
           "src/main/resources/data/hhsmod/loot_table/chests/sconey_chest.json"
         ]
       }
+    },
+    {
+      "name": "WilsonLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wilson_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/loot_table/chests/wilson_table.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
