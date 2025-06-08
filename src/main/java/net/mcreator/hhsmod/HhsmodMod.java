@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.hhsmod.init.HhsmodModTabs;
 import net.mcreator.hhsmod.init.HhsmodModItems;
+import net.mcreator.hhsmod.init.HhsmodModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,6 +39,8 @@ public class HhsmodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		HhsmodModBlocks.REGISTRY.register(modEventBus);
 
 		HhsmodModItems.REGISTRY.register(modEventBus);
 

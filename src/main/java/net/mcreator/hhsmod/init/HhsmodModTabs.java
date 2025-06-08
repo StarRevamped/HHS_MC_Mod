@@ -23,6 +23,8 @@ public class HhsmodModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(HhsmodModItems.IASONAS_GEM.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(HhsmodModBlocks.IASONAS_BLOCK.get().asItem());
 		}
 	}
 }
