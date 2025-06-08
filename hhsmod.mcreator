@@ -46,7 +46,7 @@
     {
       "name": "IasonasBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "iasonas_block",
       "metadata": {
