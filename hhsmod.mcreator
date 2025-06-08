@@ -12,6 +12,49 @@
           "src/main/resources/assets/hhsmod/models/item/iasonas_ore.json"
         ]
       }
+    },
+    {
+      "name": "IasonasGemItemIsDroppedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iasonas_gem_item_is_dropped_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hhsmod/procedures/IasonasGemItemIsDroppedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IasonasGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iasonas_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java",
+          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,9 +62,7 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item.hhsmod.iasonas_ore": "Iasonas Ore"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
