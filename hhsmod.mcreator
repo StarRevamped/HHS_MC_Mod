@@ -168,6 +168,18 @@
           "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json"
         ]
       }
+    },
+    {
+      "name": "SconeLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scone_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hhsmod/loot_table/chests/sconey_chest.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
