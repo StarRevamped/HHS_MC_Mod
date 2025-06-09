@@ -5,7 +5,7 @@
     "mobName": "The Scone",
     "mobLabel": "THE SCONE",
     "mobModelName": "Biped",
-    "mobModelTexture": "texture_1.png",
+    "mobModelTexture": "texture_1_1_2.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -21,7 +21,14 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [],
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "texture_1_1.png",
+        "disableHurtOverlay": false,
+        "glow": false
+      }
+    ],
     "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -102,7 +109,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:ChildSoul"
     },
     "livingSound": {
       "value": "entity.zombie_villager.ambient"

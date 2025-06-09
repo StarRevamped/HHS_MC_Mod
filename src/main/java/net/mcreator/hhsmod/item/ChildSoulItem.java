@@ -1,6 +1,18 @@
 
 package net.mcreator.hhsmod.item;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
+
 public class ChildSoulItem extends Item {
 	public ChildSoulItem() {
 		super(new Item.Properties().stacksTo(18).fireResistant().rarity(Rarity.COMMON));
