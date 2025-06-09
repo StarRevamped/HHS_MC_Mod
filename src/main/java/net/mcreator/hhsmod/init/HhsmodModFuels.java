@@ -16,6 +16,6 @@ public class HhsmodModFuels {
 	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		ItemStack itemstack = event.getItemStack();
 		if (itemstack.getItem() == HhsmodModItems.CHILD_SOUL.get())
-			event.setBurnTime(1600);
+			event.setBurnTime(200);
 	}
 }
