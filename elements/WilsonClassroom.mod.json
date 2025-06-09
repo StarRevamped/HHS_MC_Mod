@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "structure",
   "definition": {
-    "structure": "fixed_wilson_room",
+    "structure": "wilson_room",
     "projection": "rigid",
     "ignoredBlocks": [
       {

@@ -5,7 +5,7 @@
     "mobName": "The Scone",
     "mobLabel": "THE SCONE",
     "mobModelName": "Biped",
-    "mobModelTexture": "texture_1.png",
+    "mobModelTexture": "texture_1_1_2.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -64,16 +64,16 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEAD",
-    "attackStrength": 3,
-    "attackKnockback": 0.0,
+    "attackStrength": 5,
+    "attackKnockback": 1.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
     "stepHeight": 0.6,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 0.2,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 10,
-    "xpAmount": 2,
+    "health": 20,
+    "xpAmount": 18,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -102,7 +102,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:ChildSoul"
     },
     "livingSound": {
       "value": "entity.zombie_villager.ambient"
@@ -133,8 +133,8 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
-    "doesDespawnWhenIdle": true,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,

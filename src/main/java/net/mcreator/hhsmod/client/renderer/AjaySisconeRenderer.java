@@ -18,6 +18,6 @@ public class AjaySisconeRenderer extends HumanoidMobRenderer<AjaySisconeEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(AjaySisconeEntity entity) {
-		return ResourceLocation.parse("hhsmod:textures/entities/texture_1.png");
+		return ResourceLocation.parse("hhsmod:textures/entities/texture_1_1_2.png");
 	}
 }

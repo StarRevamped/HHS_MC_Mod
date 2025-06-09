@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "hhsmod:fixed_wilson_room",
+        "location": "hhsmod:wilson_room",
         "projection": "rigid",
         "processors": {
           "processors": [
