@@ -42,8 +42,8 @@
       "registry_name": "iasonas_gem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json",
-          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java"
+          "src/main/java/net/mcreator/hhsmod/item/IasonasGemItem.java",
+          "src/main/resources/assets/hhsmod/models/item/iasonas_gem.json"
         ]
       }
     },
@@ -55,14 +55,14 @@
       "registry_name": "iasonas_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/loot_table/blocks/iasonas_block.json",
-          "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json",
-          "src/main/resources/data/hhsmod/worldgen/configured_feature/iasonas_block.json",
           "src/main/resources/assets/hhsmod/models/block/iasonas_block.json",
-          "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
-          "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
+          "src/main/resources/data/hhsmod/loot_table/blocks/iasonas_block.json",
+          "src/main/resources/data/hhsmod/worldgen/configured_feature/iasonas_block.json",
           "src/main/resources/data/hhsmod/neoforge/biome_modifier/iasonas_block_biome_modifier.json",
-          "src/main/resources/assets/hhsmod/models/item/iasonas_block.json"
+          "src/main/resources/assets/hhsmod/models/item/iasonas_block.json",
+          "src/main/java/net/mcreator/hhsmod/block/IasonasBlockBlock.java",
+          "src/main/resources/assets/hhsmod/blockstates/iasonas_block.json",
+          "src/main/resources/data/hhsmod/worldgen/placed_feature/iasonas_block.json"
         ]
       }
     },
@@ -74,10 +74,10 @@
       "registry_name": "ajay_siscone",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/neoforge/biome_modifier/ajay_siscone_biome_modifier.json",
-          "src/main/java/net/mcreator/hhsmod/client/renderer/AjaySisconeRenderer.java",
           "src/main/resources/assets/hhsmod/models/item/ajay_siscone_spawn_egg.json",
-          "src/main/java/net/mcreator/hhsmod/entity/AjaySisconeEntity.java"
+          "src/main/java/net/mcreator/hhsmod/entity/AjaySisconeEntity.java",
+          "src/main/java/net/mcreator/hhsmod/client/renderer/AjaySisconeRenderer.java",
+          "src/main/resources/data/hhsmod/neoforge/biome_modifier/ajay_siscone_biome_modifier.json"
         ]
       }
     },
@@ -136,8 +136,8 @@
       "registry_name": "child_soul",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/hhsmod/item/ChildSoulItem.java",
-          "src/main/resources/assets/hhsmod/models/item/child_soul.json"
+          "src/main/resources/assets/hhsmod/models/item/child_soul.json",
+          "src/main/java/net/mcreator/hhsmod/item/ChildSoulItem.java"
         ]
       }
     },
@@ -149,9 +149,9 @@
       "registry_name": "normal_wilson_room",
       "metadata": {
         "files": [
-          "src/main/resources/data/hhsmod/worldgen/structure_set/normal_wilson_room.json",
+          "src/main/resources/data/hhsmod/worldgen/template_pool/normal_wilson_room.json",
           "src/main/resources/data/hhsmod/worldgen/structure/normal_wilson_room.json",
-          "src/main/resources/data/hhsmod/worldgen/template_pool/normal_wilson_room.json"
+          "src/main/resources/data/hhsmod/worldgen/structure_set/normal_wilson_room.json"
         ]
       }
     },
@@ -163,9 +163,9 @@
       "registry_name": "siscone_room",
       "metadata": {
         "files": [
+          "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json",
           "src/main/resources/data/hhsmod/worldgen/template_pool/siscone_room.json",
-          "src/main/resources/data/hhsmod/worldgen/structure/siscone_room.json",
-          "src/main/resources/data/hhsmod/worldgen/structure_set/siscone_room.json"
+          "src/main/resources/data/hhsmod/worldgen/structure/siscone_room.json"
         ]
       }
     },
