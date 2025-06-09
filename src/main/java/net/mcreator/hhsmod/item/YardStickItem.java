@@ -1,13 +1,17 @@
 
 package net.mcreator.hhsmod.item;
 
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
+
+import net.mcreator.hhsmod.init.HhsmodModItems;
 
 public class YardStickItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
@@ -38,7 +42,7 @@ public class YardStickItem extends SwordItem {
 
 		@Override
 		public Ingredient getRepairIngredient() {
-			return Ingredient.of();
+			return Ingredient.of(new ItemStack(HhsmodModItems.YARD_STICK.get()), new ItemStack(Blocks.BAMBOO));
 		}
 	};
 
