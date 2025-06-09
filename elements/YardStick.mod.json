@@ -28,7 +28,14 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:YardStick"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
